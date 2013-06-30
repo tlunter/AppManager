@@ -1,7 +1,7 @@
 import os
 
 # app_manager/settings/file.py to app_manager
-ROOT_PATH = os.path.dirname(os.path.dirname(os.path.absname(__file__)))
+ROOT_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ROOT_URL = '/app_manager'
 
 DEBUG = False
